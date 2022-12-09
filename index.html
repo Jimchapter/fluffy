@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Push example</title>
+    <style>
+      * {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 1600px;
+        margin: 0 auto;
+      }
+
+      header {
+        background-color: #ece;
+        padding: 1rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        border-bottom: #666 solid 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      img {
+        margin-bottom: 1rem;
+        width: 20rem;
+      }
+
+      button {
+        width: 20rem;
+        padding: 2rem;
+        font-size: 1.5rem;
+        background-color: #f06d06;
+        color: white;
+        border-radius: .5rem;
+        cursor: pointer;
+      }
+    </style>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ece" />
+    <meta rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/icons/192.png">
+  </head>
+  <body>
+    <header>
+      <h1 class="container">Fluffy</h1>
+    </header>
+    <section class="container">
+      <img alt="The page cat" src="/icons/512.png" />
+      <button id="push">Get Message</button>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

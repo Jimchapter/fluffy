@@ -1,0 +1,15 @@
+{
+  "name": "notifications",
+  "version": "1.0.0",
+  "description": "notif example",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo test"
+  },
+  "keywords": [
+    "web",
+    "notifications"
+  ],
+  "author": "shelton",
+  "license": "ISC"
+}
